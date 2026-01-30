@@ -18,6 +18,20 @@
 		"ghcr.io/devcontainers/features/python:1": {},
 		"ghcr.io/devcontainers/features/sshd:1": {},
 		"ghcr.io/jckimble/devcontainer-features/ngrok:3": {},
-		"ghcr.io/devcontainers-extra/features/supabase-cli:1": {}
+		"ghcr.io/devcontainers-extra/features/supabase-cli:1": {},
+		"ghcr.io/devcontainers-community/features/deno:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"denoland.vscode-deno",
+				"WallabyJs.console-ninja",
+				"xabikos.JavaScriptSnippets",
+				"ms-vscode.vscode-typescript-next",
+				"ms-vscode.js-debug-nightly",
+				"formulahendry.code-runner",
+				"ms-vscode.cpptools"
+			]
+		}
 	}
 }
